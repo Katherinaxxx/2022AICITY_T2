@@ -1,0 +1,48 @@
+DATA:
+  USE_MOTION: True
+  SIZE: 320
+  TRAIN_JSON_PATH: "../data/train_tracks_nlpaugv5_shuff_all_cnt.json"
+  # EVAL_JSON_PATH: "../data/train_tracks_nlpaugv5_shuff_all_cnt.json"
+  # TRAIN_JSON_PATH: "../data/train_tracks_nlpaugv5_shuff_train_cnt.json"
+  EVAL_JSON_PATH: "../data/train_tracks_nlpaugv5_shuff_val_cnt.json"
+
+  TEST_TRACKS_JSON_PATH: "../data/train_tracks_nlpaugv5_shuff_val_cnt.json"
+  # TEST_TRACKS_JSON_PATH: "../data/test_tracks.json"
+
+  CROP_AREA: 1.0  ## new_w = CROP_AREA* old_w
+  USE_LSTM: True
+  USE_NL_MOTION: True
+  USE_OTHER_VIEWS: True
+  TEXTS: "cnt"
+  USE_MAIN_CAR: True
+  N_FOLD: 10
+  USE_CLIP: True
+
+MODEL:
+  NAME: "triple-stream"
+  BERT_TYPE: "DEBERTA"
+  BERT_NAME: "microsoft/deberta-v3-base"
+  EMBED_DIM: 768
+  GLOBAL_IMG_ENCODER: "video clip"
+  LOCAL_IMG_ENCODER: "se_resnext101_32x4d"    # "efficientnet-b3"
+  car_idloss: False
+  mo_idloss: False
+  share_idloss: False
+  dropout_vis_backbone: None
+  dropout_vis_backbone_bk: 0.2
+  dropout_vis_backbone_boxes: 0.2
+
+TRAIN: 
+  BATCH_SIZE: 64  #32
+  EPOCH: 60
+  ONE_EPOCH_REPEAT: 10  # 30 60太大
+  CONTINUE: True
+  LR:
+    BASE_LR: 0.0001   # 0.01
+    WARMUP_EPOCH: 4
+    DELAY: 1
+
+TEST:
+  RESTORE_FROM: "deberta_allloss_triple_ov_cnt_lang_v5_3sent_10fold_videoclip/checkpoint_35.pth"
+  # QUERY_JSON_PATH: "../data/test_queries_nlpaugv5.json"
+  QUERY_JSON_PATH: "../data/train_tracks_nlpaugv5_shuff_val_cnt.json"

@@ -1,0 +1,53 @@
+{
+    "gray": [
+    "gray",
+    "grey"
+    ],
+
+    "silver": [
+      "silver"
+  ],
+
+  "yellow": [
+      "gold",
+      "golden",
+      "tan",
+      "beige",
+      "brown",
+      "yellow",
+      "orange",
+      "brown-ish"
+  ],
+
+  "red": [
+      "red",
+      "maroon",
+      "wine",
+      "wine-red",
+      "burgundy",
+      "maroonish",
+      "dark-red",
+      "reddish"
+  ],
+
+  "blue": [
+      "blue",
+      "dark-blue"
+  ],
+
+  "black": [
+      "black"
+  ],
+
+  "purple": [
+      "purple"
+  ],
+  
+  "green": [
+      "green"
+  ],
+  
+  "white": [
+      "white"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+    "turn": [
+        "turn",
+        "turns",
+        "turned",
+        "turning"
+    ],
+    "curve": [
+        "curve",
+        "curves",
+        "curved",
+        "curving"
+    ],
+    "bare": [
+        "bare",
+        "bares",
+        "bared"
+    ],
+    "stop": [
+        "stop",
+        "stops",
+        "stoped",
+        "stopping"
+    ],
+    "park": [
+        "park",
+        "parks",
+        "parked",
+        "parking"
+    ],
+    "wait": [
+        "wait",
+        "waits",
+        "waiting"
+    ],
+    "pause": [
+        "pause",
+        "pauses",
+        "paused"
+    ],
+    "merge": [
+        "merge",
+        "merges",
+        "merged",
+        "merging"
+    ],
+    "switch": [
+        "switch",
+        "switches",
+        "switched",
+        "switching"
+    ],
+    "change": [
+        "change",
+        "changes",
+        "changed",
+        "changing"
+    ],
+    "run": [
+        "run",
+        "runs",
+        "running",
+        "walk",
+        "walks",
+        "walking"
+    ],
+    "go": [
+        "go",
+        "goes",
+        "went",
+        "going",
+        "heads",
+        "approaching",
+        "approaches",
+        "approach"
+    ],
+    "drive": [
+        "drive",
+        "drives",
+        "drove",
+        "driving"
+    ],
+    "keep": [
+        "keep",
+        "keeps",
+        "kept",
+        "keeping",
+        "stand",
+        "standing",
+        "stands"
+    ],
+    "cross": [
+        "cross",
+        "crosses",
+        "crossed",
+        "crossing"
+    ],
+    "move": [
+        "move",
+        "moves",
+        "moving",
+        "come",
+        "comes"
+    ],
+    "continue": [
+        "continue",
+        "continues",
+        "continued"
+    ],
+    "travel": [
+        "travel",
+        "travels",
+        "traveled",
+        "traveling"
+    ],
+    "proceed": [
+        "proceed",
+        "proceeds",
+        "proceeded",
+        "proceeding"
+    ],
+
+    "pass": [
+        "pass",
+        "passes",
+        "passing"
+    ],
+    "leave": [
+        "leave",
+        "leaves"
+    ],
+
+    "follow": [
+        "follow",
+        "followed",
+        "following"
+    ],
+
+    "behind": [
+        "behind",
+        "behinds"
+    ],
+
+    "make": [
+        "make",
+        "makes",
+        "made",
+        "making"
+    ],
+    "take": [
+        "take",
+        "took",
+        "takes",
+        "taking"
+    ],
+
+    "overtake": [
+        "overtake",
+        "overtakes",
+        "overtaken",
+        "overtaking"
+    ],
+
+    "slow": [
+        "slow",
+        "slows",
+        "slowing"
+    ]
+
+}

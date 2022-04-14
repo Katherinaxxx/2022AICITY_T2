@@ -1,0 +1,46 @@
+{
+    "sedan": [
+        "sedan", 
+        "coupe",
+        "mini-cooper",
+        "prius"
+    ],
+
+    "suv": [
+        "suv",
+        "wagon",
+        "hatchback",
+        "mpv",
+        "minivan",
+        "crossover",
+        "wagon",
+        "cadillac"
+    ],
+
+    "van": [
+        "van"
+    ],
+
+    "car": [
+        "car",
+        "vehicle"
+    ],
+
+    "jeep": [
+        "jeep"
+    ],
+
+    "pickup": [
+        "pickup",
+        "pick up"
+    ],
+
+    "bus-truck": [
+        "semi-trailer-truck",
+        "cement-truck",
+        "cargo-truck",
+        "bus",
+        "coach",
+        "truck"
+    ]
+}
