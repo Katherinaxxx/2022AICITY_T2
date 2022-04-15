@@ -17,7 +17,7 @@
 ```
 
 * `order.js`：{video_id: track_id, ...}
-* `test_queries.js`：change `test_queries.json` to js
+* `test_queries.js`：change `test_queries.json` to `test_queries.js`
 * `result_fine.js`：put your submission here
 * `video_mp4`: put videos here
   
