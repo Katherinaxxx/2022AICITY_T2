@@ -28,7 +28,7 @@ The 7nd Place Submission to AICity Challenge 2022 Natural Language-Based Vehicle
 
 ` scripts/add_cnt.py` is a Python script that is used to count frequency.
 
-- [TODO]Download the pretrained models, scores, extracted visual and text embeddings, which are used to reproduce the best submission. You can download these files [here](https://drive.google.com/drive/folders/1YPzdMLP1OfT6ma7E_ETFXvohI90dmVUp?usp=sharing).
+- Download the pretrained models, scores, extracted visual and text embeddings, which are used to reproduce the best submission. You can download these files [here](https://drive.google.com/drive/folders/1YPzdMLP1OfT6ma7E_ETFXvohI90dmVUp?usp=sharing).
 
 
 The directory structures in `mmpt`, `MODEL_NAME` and `score` are as follows：
