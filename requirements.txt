@@ -1,0 +1,17 @@
+en-core-web-md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.3.0/en_core_web_md-2.3.0.tar.gz
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.5/en_core_web_sm-2.2.5.tar.gz
+nltk==3.5
+spacy==2.2.4
+tensorboard==2.8.0
+tokenizers==0.11.6
+torch==1.9.0+cu111
+tqdm==4.63.0
+transformers==4.17.0
+yacs==0.1.8
+opencv-python==4.5.1.48
+torchvision==0.10.0
+colorlog
+sklearn
+tensorboardX
+torchmetrics
+omegaconf==2.0.6
