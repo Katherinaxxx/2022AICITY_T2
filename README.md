@@ -55,7 +55,7 @@ The directory structures in `mmpt`, `MODEL_NAME` and `score` are as follows：
 ```
 
 
-### Train
+## Train
 The configuration files are in `configs`.
 
 ```
@@ -69,7 +69,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -u main.py --name four-stream \
 --config configs/deberta_allloss_triple_ov_cnt_lang_v5_3sent_10fold_swin3d.yaml 
 ```
 
-### Test
+## Test
 - Video Swin Transformer as Clip Encoder
 
 Change the `RESTORE_FROM` in your configuration file.
