@@ -4,29 +4,28 @@
  * @LastEditTime: 2022-03-23 09:45:20
  * @Description: 
 -->
-## 数据说明
+## structures 
 ```
  visualize_tool
     ├── function.js
     ├── layout_result.css
     ├── order.js
-    ├── order.json
-    ├── README.md
-    ├── result_refine.js
+    ├── result_refine.js     # put your submission here
     ├── test_queries.js
-    ├── test_queries.json
     ├── video_mp4
     └── visualize.html
 ```
 
-* `order.js`：存放视频id和track_id映射的json 
-* `test_queries.js`：存放test_queries.json
-* `result_fine.js`：存放模型预测结果的json
-* `video_mp4`:存放视频的文件夹
+* `order.js`：{video_id: track_id, ...}
+* `test_queries.js`：change `test_queries.json` to js
+* `result_fine.js`：put your submission here
+* `video_mp4`: put videos here
   
-## 运行
+## How to run
 
-1. 安装live server插件,setting.json中添加`"liveServer.settings.ignoreFiles":["**"]`
-2. `result_fine.js`、`test_queries.js`、`order.js`数据替换
-3. 视频文件夹`video_mp4`放于当前目录下
-4. 用live server打开`visualize.html` (建议用chrome)
+
+
+1. Install `live server` extension on vscode. Add `"liveServer.settings.ignoreFiles":["**"]` to `setting.json`
+2. Update data in `result_fine.js`、`test_queries.js`、`order.js`
+3. Process and put videos to `video_mp4`
+4. Open`visualize.html` and go live.
